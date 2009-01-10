@@ -1,0 +1,12 @@
+Pyfig is a (very) small configuration file parser in python. It will parse this:
+
+player_name = toaster_phun
+age = 19
+
+into a dictionary:
+
+{"player_name":"toaster_phun", "age":19}
+
+for you to use in your python script.
+
+SEND SUGGESTIONS, BUGS, AND THANKS TO <alecwh{at}gmail[dot]com>. Website is at <http://pyfig.alecwh.com/>.

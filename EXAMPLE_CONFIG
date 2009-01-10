@@ -1,0 +1,21 @@
+# This is an example config file, used for testing Pyfig.
+# Pyfig is found @ http://pyfig.alecwh.com
+
+# you can change the name/value seperator from '=' to something else
+# you can change the config seperator from "\n" (newline) to anything
+# spacing doesn't matter at all, between configs or name/values
+# comment lines start with # or ;
+# lines can be freely skipped
+
+name = John Doe
+age = 24
+intelligence_level = average
+
+;starting_level = Collosus
+starting_time_limit = 10
+
+graphics    =    high                     
+	difficulty  =  8 
+starting_score=3
+
+# OUTPUT: {'intelligence_level': 'average', 'name': 'John Doe', 'starting_time_limit': '10', 'age': '24', 'difficulty': '8', 'starting_score': '3', 'graphics': 'high'}
